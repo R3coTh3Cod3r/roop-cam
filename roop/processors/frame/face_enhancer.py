@@ -43,7 +43,7 @@ def clear_face_enhancer() -> None:
 
 def pre_check() -> bool:
     download_directory_path = resolve_relative_path('../models')
-    conditional_download(download_directory_path, ['conditional_download(download_directory_path, ['https://huggingface.co/hacksider/deep-live-cam/resolve/main/GFPGANv1.4.pth'])
+    conditional_download(download_directory_path,['https://huggingface.co/hacksider/deep-live-cam/resolve/main/GFPGANv1.4.pth'])
     return True
 
 
